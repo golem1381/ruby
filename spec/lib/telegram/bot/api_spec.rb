@@ -1,5 +1,5 @@
 RSpec.describe Telegram::Bot::Api do
-  let(:token) { '180956132:AAHU0_CeyQWOd6baBc9TibTPybxY9p1P8xo' }
+  let(:token) { '245715933:AAF8WqDChJpEr_dhT_wtHzyIebPOCGwNNjQ' }
   let(:endpoint) { 'getMe' }
 
   subject { described_class.new(token) }

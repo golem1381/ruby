@@ -1,7 +1,7 @@
 require 'rubygems'
 require 'telegram/bot'
 
-token = 'replace-me-with-your-real-token'
+token = '245715933:AAF8WqDChJpEr_dhT_wtHzyIebPOCGwNNjQ'
 
 Telegram::Bot::Client.run(token) do |bot|
   bot.listen do |message|
